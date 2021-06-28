@@ -3,6 +3,7 @@ import { Route, Router, Switch} from 'react-router-dom';
 import { Home } from '../Home';
 import { Contact } from '../Contact';
 import { History } from 'history'
+import { JSConcept} from '../JSConcept';
 
 import styles from './PageContainer.module.css';
 
@@ -16,6 +17,7 @@ export const PageContainer: React.FC<Props> = props => {
       <Router history={props.history}>
         <Switch>
           <Route path='/contact' component={Contact}/>
+          <Route path='/jsconcept' component={JSConcept}/>
           <Route path='/' component={Home}/>
         </Switch>
       </Router>

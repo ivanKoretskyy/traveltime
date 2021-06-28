@@ -15,6 +15,7 @@ export const Nav: React.FC<NavProps> = props => {
       <Router history={props.history}>
         <Link to='/'>Home</Link>
         <Link to='/Contact'>Contact</Link>
+        <Link to='/jsconcept'>jsconcept</Link>
       </Router>
     </div>
   );

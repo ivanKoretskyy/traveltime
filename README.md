@@ -47,3 +47,14 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Deployed to
 ivankoretskyytimetravel.surge.sh
+
+## sings to try
+*render props
+*hoc
+*closure
+*curry
+*eject
+*own project with webpack
+*lint
+*pretify
+*unit test
