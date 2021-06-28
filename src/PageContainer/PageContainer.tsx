@@ -1,11 +1,24 @@
 import * as React from 'react';
+import { Route, Router, Switch} from 'react-router-dom';
+import { Home } from '../Home';
+import { Contact } from '../Contact';
+import { History } from 'history'
 
 import styles from './PageContainer.module.css';
 
-export const PageContainer: React.FC = () => {
+type Props = {
+  history: History;
+}
+
+export const PageContainer: React.FC<Props> = props => {
   return (
     <div className={styles.Container}>
-      main page
+      <Router history={props.history}>
+        <Switch>
+          <Route path='/contact' component={Contact}/>
+          <Route path='/' component={Home}/>
+        </Switch>
+      </Router>
     </div>
   )
 }
