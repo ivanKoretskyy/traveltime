@@ -58,3 +58,4 @@ ivankoretskyytimetravel.surge.sh
 *lint
 *pretify
 *unit test
+*Star performance

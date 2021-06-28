@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import SingleTone from './single.js';
+import { ReactConcept } from '../ReactConcept';
 
 export const JSConcept: React.FC = () => {
   const [isLoading, setLoading] = useState<boolean>(false)
@@ -31,6 +32,7 @@ export const JSConcept: React.FC = () => {
       }}>SingleTone firstPerson</div>
       <button onClick={() => setCounter(count + 1)}>{count}</button>
       {isLoading && <span>loading ...</span>}
+      <ReactConcept/>
     </div>
   )
 }
