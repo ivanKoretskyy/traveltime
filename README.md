@@ -59,3 +59,4 @@ ivankoretskyytimetravel.surge.sh
 *pretify
 *unit test
 *Star performance
+*random selected place

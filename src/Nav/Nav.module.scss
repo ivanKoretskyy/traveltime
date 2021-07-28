@@ -1,0 +1,16 @@
+.navBar {
+  display: flex;
+  background-color: gray !important;
+  font-size: 16px !important;
+}
+
+.link {
+  padding: 16px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+
+  &.active {
+    color: #61dafb !important;
+  }
+}
